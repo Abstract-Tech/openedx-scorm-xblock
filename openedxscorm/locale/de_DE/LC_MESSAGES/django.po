@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-07 10:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: scormxblock.py:89
+msgid "Display Name"
+msgstr "Name anzeigen"
+
+#: scormxblock.py:90
+msgid "Display name for this module"
+msgstr "Anzeigename für dieses Modul"
+
+#: scormxblock.py:95
+msgid "Path to the index page in scorm file"
+msgstr "Pfad zur Indexseite in der Scorm-Datei"
+
+#: scormxblock.py:112
+msgid "Weight"
+msgstr "Gewicht"
+
+#: scormxblock.py:113
+msgid "Weight/Maximum grade"
+msgstr "Gewicht/Höchstnote"
+
+#: scormxblock.py:117
+msgid "Scored"
+msgstr "Bewertet"
+
+#: scormxblock.py:119
+msgid "Select False if this component will not receive a numerical score from the Scorm"
+msgstr "Wählen Sie False, wenn diese Komponente keine numerische Bewertung von Scorm erhält"
+
+#: scormxblock.py:131
+msgid "Display width (px)"
+msgstr "Anzeigebreite (px)"
+
+#: scormxblock.py:132
+msgid "Width of iframe (default: 100%)"
+msgstr "Breite des iframe (Standardwert: 100%)"
+
+#: scormxblock.py:136
+msgid "Display height (px)"
+msgstr "Anzeigehöhe (px)"
+
+#: scormxblock.py:137
+msgid "Height of iframe"
+msgstr "Höhe des iframe"
+
+#: scormxblock.py:142
+msgid "Launch in pop-up window"
+msgstr "Start im Pop-up-Fenster"
+
+#: scormxblock.py:144
+msgid ""
+"Launch in pop-up window instead of embedding the SCORM content in an iframe. "
+"Enable this for older packages that need to be run in separate window."
+msgstr ""
+"Start in einem Pop-up-Fenster statt Einbettung des SCORM-Inhalts in einen iframe."
+"Aktivieren Sie dies für ältere Pakete, die in einem separaten Fenster ausgeführt werden müssen."
+
+#: static/html/scormxblock.html:8
+msgid "points"
+msgstr "Punkte"
+
+#: static/html/scormxblock.html:16
+msgid "Fullscreen"
+msgstr "Vollbildschirm"
+
+#: static/html/scormxblock.html:19
+msgid "Exit fullscreen"
+msgstr "Vollbildmodus beenden"
+
+#: static/html/scormxblock.html:24
+msgid "Launch unit in new window"
+msgstr "Einheit in neuem Fenster starten"
+
+#: static/html/scormxblock.html:39
+msgid "View SCORM reports"
+msgstr "SCORM-Berichte anzeigen"
+
+#: static/html/studio.html:16
+msgid "Upload .zip package"
+msgstr ".zip Paket hochladen"
+
+#: static/html/studio.html:20
+msgid "Currently:"
+msgstr "Derzeit:"
+
+#: static/html/studio.html:28
+msgid "True"
+msgstr "Wahr"
+
+#: static/html/studio.html:29
+msgid "False"
+msgstr "Falsch"
+
+#: static/html/studio.html:63
+msgid "Save"
+msgstr "Speichern"
+
+#: static/html/studio.html:66
+msgid "Cancel"
+msgstr "Abbrechen"
