@@ -18,7 +18,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-VERSION = get_version("openedxscorm", "__about__.py")
+VERSION = get_version("abstract_scorm_xblock", "__about__.py")
 
 def package_data(pkg, roots):
     """Generic function to find package_data.
@@ -57,11 +57,11 @@ setup(
         "Issue tracker": "https://github.com/overhangio/openedx-scorm-xblock/issues",
         "Community": "https://discuss.openedx.com",
     },
-    packages=["openedxscorm"],
+    packages=["abstract_scorm_xblock"],
     python_requires=">=3.8",
     install_requires=["xblock", "web-fragments"],
-    entry_points={"xblock.v1": ["scorm = openedxscorm:ScormXBlock"]},
-    package_data=package_data("openedxscorm", ["static", "public", "locale"]),
+    entry_points={"xblock.v1": ["abstract_scorm_xblock = abstract_scorm_xblock:ScormXBlock"]},
+    package_data=package_data("abstract_scorm_xblock", ["static", "public", "locale"]),
     license="AGPLv3",
     classifiers=["License :: OSI Approved :: GNU Affero General Public License v3"],
 )
